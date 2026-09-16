@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.campo-busca{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    background-color: cornsilk;
+}
+
+nav ul{
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    margin: 0;
+    list-style: none;
+
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #555;
+    color: #ff8800;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: #444;
+    z-index: 1;
+    list-style-type: none;
+    margin-top: -5px;
+    min-width: 200px;
+}
+
+.submenu{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+nav li:hover .submenu{
+    display: block;
+}
+
+.submenu a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.submenu a:hover{
+    background-color: #555;
+}
+.menu-vertical{
+    background-color: #555;
+    width: 200px;
+    float: left;
+}
+
+.menu-vertical a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu-vertical a:hover{
+    background-color: #666;
+}
+
+.dropdown{
+    display: none;
+}
+
+.menu-vertical:hover .dropdown{
+    display: block;
+}
+
+.dropdown a{
+    padding: 10px 20px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna{
+    flex: 1;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid #cccccc; 
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    font-size: small;
+}
